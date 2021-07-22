@@ -6,13 +6,13 @@ This article is based on the share by Second State CEO Michael Yuan in 2020 Kube
 
 ## ***Background***
 
-![image-20210721141953114](/Users/xieyicen/Library/Application Support/typora-user-images/image-20210721141953114.png)
+![](/Users/xieyicen/Desktop/Will Cloud Native Replace Docker/image-20210721141953114的副本.png)
 
 Solomon Hykes, the founder of Docker in March 2019, claimed on twitter that “If WASM+WASI existed in 2008, we would not have needed to create Docker”. From where he stood, WebAssembly reveals the future of computing. This twitter led to a great stir in communities, as many people got confused about why WebAssembly, a replacement of JavaScript in browser for game playing, turned out to be an alternative to Docker in server.
 
-## ***\*Where WebAssembly Lies in Server\****
+## *Where WebAssembly Lies in Server*
 
-![image-20210721142129175](/Users/xieyicen/Library/Application Support/typora-user-images/image-20210721142129175.png)
+![](/Users/xieyicen/Desktop/Will Cloud Native Replace Docker/image-20210721142129175的副本.png)
 
 We tend to divide container, virtual machine or operation environment into three different levels in terms of server
 
@@ -25,9 +25,9 @@ We tend to divide container, virtual machine or operation environment into three
 
 If WebAssembly manages to create a language VM similar to JVM, the dream proposed by Java over 20 years ago can be realized: to provide developers with a secure and highly abstracted operation environment across different operating systems, hardware and software platforms.
 
-## **Comparison between WebAssembly and Docker
+## *Comparison between WebAssembly and Docker*
 
-![image-20210721142326218](/Users/xieyicen/Library/Application Support/typora-user-images/image-20210721142326218.png)
+![](/Users/xieyicen/Desktop/Will Cloud Native Replace Docker/image-20210721142326218的副本.png)
 
 What is the relationship between WebAssembly and Docker? Why is it believed that WebAssembly will replace Docker? Compared with Docker, WebAssembly performs better in the following aspects.
 
@@ -55,9 +55,9 @@ WebAssembly seamlessly supports server application frameworks, such as Node.js a
 
 These are where WebAssembly stands out.
 
-## **\**WebAssembly and Rust*\***
+## *WebAssembly and Rust*
 
-![image-20210721142609064](/Users/xieyicen/Library/Application Support/typora-user-images/image-20210721142609064.png)
+![](/Users/xieyicen/Desktop/Will Cloud Native Replace Docker/image-20210721142609064的副本.png)
 
 When it comes to WebAssembly, Rust always comes together. Crowned as the most popular language among developers in Stack Overflow, Rust is likely to replace C language in the foreseeable future.
 
@@ -65,27 +65,25 @@ As WebAssembly is connected with LLVM, 20 languages are supported at front-end. 
 
 Rust improves development efficiency and security in memory. WebAssembly is conducive for secure operation and cross-platform execution. Both of them are of good performance and lightweight.
 
-## ***\*WebAssembly System Interface（WASI）\****
+## *WebAssembly System Interface(WASI)*
 
-![image-20210721142657819](/Users/xieyicen/Library/Application Support/typora-user-images/image-20210721142657819.png)
+![](/Users/xieyicen/Desktop/Will Cloud Native Replace Docker/image-20210721142657819的副本.png)
 
 WASI is similar with JNI of Java. WebAssembly used to be applied in browser and will be applied in server this year. To access file system, thread, order, and standard library in server, WASI is an indispensable part.
 
 Given one significant application scenario of serverless is AI reasoning, GPU, ASIC and Tensorflow are highly required during the runtime of WebAssembly, which are all added by WASI.
 
-## ***\*Combining WebA\*******\*ssembly\**** ***\*with Kubernetes.\****
+## *Combining WebAssembly with Kubernetes*
 
 WebAssembly is frequently applied in browser, while seldom used in server, as it requires to manage processes and allocate resources on its own due to the shortage of scheduling capacity and DevOps solution scheme in server side. Hence, the combination of WebAssembly and Kubernetes makes an edge-cutting field.
 
 One method is to make WebAssembly into OCI (open container interface) compliant, the other is to write shim API in containerd. 
 
-The linkage given in the picture is made by AliCloud. It is based on the second method.
-
-![image-20210721142814156](/Users/xieyicen/Library/Application Support/typora-user-images/image-20210721142814156.png)
+![](/Users/xieyicen/Desktop/Will Cloud Native Replace Docker/image-20210721142814156的副本.png)
 
 As we mentioned above, the tweet of Docker’s founder caused huge impacts on community and led to some grudges. For ceasing these discontentments, another tweet was posted by him for explanation. One and half years later, we found the reality different, and the word “Docker” should change into “Kubernetes”.
 
-## ***Will WebAssembly replace Docker?***
+## ***Will WebAssembly replace Docker***
 
 Even if WebAssembly can replace Docker, it takes time, since Docker holds its own ecology and is in a different abstraction level with WebAssembly.
 
