@@ -27,7 +27,7 @@ If WebAssembly manages to create a language VM similar to JVM, the dream propose
 
 ## *Comparison between WebAssembly and Docker*
 
-![](/Users/xieyicen/Desktop/Will Cloud Native Replace Docker/image-20210721142326218的副本.png)
+![Image text](../image/image-20210721142326218的副本.png
 
 What is the relationship between WebAssembly and Docker? Why is it believed that WebAssembly will replace Docker? Compared with Docker, WebAssembly performs better in the following aspects.
 
